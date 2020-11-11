@@ -1,4 +1,18 @@
 /*	-> header	*/
+
+/*  
+  class fixed-top en el header hace que el main suba hasta el top de 
+  nuestra pagina causando con ello que si algo en el header (en este
+  caso nuestra navbar) no es transparente se pueda:
+      
+    1 Empalmar y ver sobrepuesto encima del primer contenido del main
+    (en este caso nuestro slider) 
+  2 Posicionar antes (arriba) de el primer contenido del main 
+   
+  Se recomienta usar un parrafo <p></p> para probar y reconocer 
+  el comportamiento de los componentes.. 
+*/
+   
 header {
    padding: 0px;
    transition: all 0.4s ease 0s;
@@ -8,7 +22,8 @@ header {
    z-index: 1 !important; }
  
  header.active {
-   background: rgba(0, 0, 0, 0.7); }
+   background: rgba(0, 0, 0, 0.7); 
+  }
 
 
 /*	-> navbar	*/
