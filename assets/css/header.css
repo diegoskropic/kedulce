@@ -1,5 +1,14 @@
 /*	-> header	*/
-
+header {
+   padding: 0px;
+   transition: all 0.4s ease 0s;
+   height: 100px;
+   display: grid;
+   align-items: center;
+   z-index: 1 !important; }
+ 
+ header.active {
+   background: rgba(0, 0, 0, 0.7); }
 
 
 /*	-> navbar	*/
