@@ -1,0 +1,121 @@
+@import url("header.css");
+@import url("navbar.css");
+@import url("content.css");
+@import url("footer.css");
+
+/* Global */
+:root {
+   --para-color: #777;
+   --heading-color: #2d2d43;
+   --theme-light: #efefef;
+   --primary-color: #d17721;
+   --bg-light: rgba(180, 109, 59, 0.07);
+   --border-radius: 5px;
+   --bg-color: #fff;
+   --footer-bg: #000;
+   --breadcrumb-bg: #f3f3f3;
+   --card-bg: #fff; 
+}
+
+.d-grid {
+   display: grid; 
+}
+
+body {
+   background-color: gray;
+}
+
+
+/* header */
+
+/* navbar */
+
+/* button move-top */
+#movetop {
+   display: none;
+   position: fixed;
+   bottom: 45px;
+   right: 15px;
+   z-index: 99;
+   font-size: 24px;
+   cursor: pointer;
+   color: #fff;
+   width: 45px;
+   height: 45px;
+   line-height: 35px;
+   border-width: initial;
+   border-style: none;
+   border-color: initial;
+   -o-border-image: initial;
+   border-image: initial;
+   outline: none;
+   background: var(--primary-color);
+   padding: 0px;
+   border-radius: 50px;
+   transition: all 0.5s ease-out 0s; 
+}
+
+/* banner */
+
+/* content */
+
+/* footer */
+
+
+
+/* ======================== RESPONSIVE ======================== */
+
+/* ========================= BY RANGE ========================= */
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
+
+
+/* ========================= NO RANGE ========================= */
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+	
+}
+
+/* Small devices (landscape phones) */
+@media (max-width: 767.98px) {
+	
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops) */
+@media (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+	
+}

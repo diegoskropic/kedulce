@@ -1,0 +1,73 @@
+/*	-> footer	*/
+
+footer {
+   background: var(--footer-bg);
+   position: relative;
+   z-index: 0; 
+}
+
+footer .all-footer:before {
+   content: "";
+   background: rgba(20, 20, 20, 0.94);
+   position: absolute;
+   top: 0;
+   min-height: 100%;
+   left: 0;
+   right: 0;
+   opacity: 0.9;
+   z-index: -1; 
+}
+
+footer .derechos {
+   border-top: 1px solid #232323;
+   padding-top: 2em;
+   margin-top: 3em; 
+}
+
+footer .derechos a {
+   color: #ccc; 
+}
+ 
+footer .derechos a:hover {
+   color: #fff; 
+}
+
+footer .copy-footer {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #979797; 
+}
+
+footer ul.btm-list{ 
+   text-align: right;   
+}
+
+footer .btm-list li
+{
+   list-style-type: none;
+   display: inline-block;
+}
+
+footer ul.btm-list li:nth-child(2) {
+   margin: 0 15px; }
+ 
+footer .btm-list li a,
+footer .btm-list li select {
+   font-size: 16px;
+   line-height: 28px;
+   color: #979797;
+   letter-spacing: .5px; }
+ 
+footer .btm-list li a:hover,
+footer .btm-list li select:hover {
+   color: #eee; }
+ 
+footer .btm-list li select {
+   border: none;
+   cursor: pointer;
+   background: transparent; }
+
+footer .grid-col-4 {
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
