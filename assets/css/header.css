@@ -19,7 +19,7 @@ header {
   height: 100px;
   display: grid;
   align-items: center;
-  z-index: 1 !important; 
+  z-index: 2 !important; 
 }
  
 header.active {
